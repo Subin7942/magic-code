@@ -1,22 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS 기초</title>
-  <style>
-    body{
-      background-color: lightblue;
-    }
-    p{
-      background-color: coral;
-      color: white;
-      font-size: 60px;
-      font-weight: bold;
-    }
-  </style>
-</head>
-<body>
-  <p>일괄 적용 스타일</p>
-</body>
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS 기초</title>
+    <style>
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: lightblue;
+      }
+      p {
+        background-color: coral;
+        color: white;
+        font-size: 60px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <p>일괄 적용 스타일</p>
+    <p
+      style="
+        background-color: greenyellow;
+        color: blueviolet;
+        font-size: 30px;
+        font-weight: 900;
+      "
+    >
+      개별 적용 스타일
+    </p>
+  </body>
 </html>
