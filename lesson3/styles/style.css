@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&family=Gasoek+One&display=swap');
+
+img {
+  display: block;
+}
+
+.img-fixed {
+  width: 400px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.img-ratio {
+  width: 400px;
+  height: auto;
+  aspect-ratio: 16/9;
+  margin-bottom: 20px;
+}
+
+.img-responsive {
+  width: 40%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.img-viewport {
+  width: 50vw;
+  height: 30vh;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.normal {
+  font-style: normal;
+}
+.italic {
+  font-style: italic;
+}
+.oblique span {
+  font-style: oblique;
+}
+
+.weight {
+  font-weight: bold;
+}
+.size {
+  font-size: 20px;
+}
+
+.font span {
+  font-family: 'Dokdo', system-ui;
+}
